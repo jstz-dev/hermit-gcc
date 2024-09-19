@@ -1364,7 +1364,7 @@ riscv*-*-freebsd*)
 	;;
 riscv*-*-hermit*)
 	tmake_file="${tmake_file} t-crtstuff-pic t-libgcc-pic riscv/t-softfp${host_address} t-softfp riscv/t-elf riscv/t-elf${host_address}"
-	extra_parts="$extra_parts crtbegin.o crtend.o crti.o crtn.o crtendS.o crtbeginT.o"
+	extra_parts="$extra_parts crtbeginS.o crtend.o crti.o crtn.o crtendS.o crtbeginT.o"
 	;;
 riscv*-*-*)
 	tmake_file="${tmake_file} riscv/t-softfp${host_address} t-softfp riscv/t-elf riscv/t-elf${host_address}"

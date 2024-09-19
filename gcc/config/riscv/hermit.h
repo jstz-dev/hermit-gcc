@@ -6,4 +6,4 @@
 
 
 #undef LIB_SPEC
-#define LIB_SPEC "%{pthread:-lpthread} -lc -lg -lm -lhermit"
+#define LIB_SPEC "%{pthread:-lpthread} -lc -lm -lhermit"
